@@ -1,0 +1,21 @@
+P102 PCIe Gen2 — 第三方组件来源
+
+Python 3.13.8：Python Software Foundation。
+Tcl/Tk 8.6：随 Python Windows 运行时提供。
+PyInstaller 6.22.3：用于单文件封装。
+以上组件的许可文本随发行包附在 LICENSES 目录。
+
+硬件访问组件：WinRing0x64.sys、ThrottleStop.sys。
+二进制来源固定为以下仓库提交；运行前按 SHA256 校验。
+https://github.com/skbskhud/p104-unlock-v3/tree/ef45a8d3dd4cdbcde6a4611dd9ecda75ac4efb56/P104-2.0x16-v1.2/bin/drivers
+
+WinRing0x64.sys
+11bd2c9f9e2397c9a16e0990e4ed2cf0679498fe0fd418a3dfdac60b5c160ee5
+
+ThrottleStop.sys
+16f83f056177c4ec24c7e99d01ca9d9d6713bd0497eeedb777a3ffefa99c97f0
+
+PCIe 运行时修改方法参考：
+https://github.com/skbskhud/p104-unlock-v3
+
+第三方组件的权利和许可归其各自权利人；本文件仅记录来源与校验值。

@@ -1,6 +1,6 @@
 # P102 PCIe Gen2
 
-Windows 10/11 x64 的 NVIDIA P102-100 PCIe 2.0 修改与后台保持工具。当前源码版本 **0.4.3**，仅匹配 PCI ID `10DE:1B07`。
+Windows 10/11 x64 的 NVIDIA P102-100 PCIe 2.0 修改与后台保持工具。
 
 ## 使用
 
